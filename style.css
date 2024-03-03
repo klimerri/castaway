@@ -1,0 +1,499 @@
+body{
+    background-color: #191919;
+}
+
+button{
+    border: none;
+}
+
+.container{
+    width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo_header{
+    width: 160px;
+    height: 33px;
+}
+
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 26px;
+    margin-bottom: 26px;
+}
+
+.navigation_list{
+    display: flex;
+    column-gap: 40px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.navigation_link{
+    color: white;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    transition: color 0.2s linear;
+}
+
+.navigation_link:hover{
+    color: #118DA8;
+}
+
+.main_man{
+    width: 650px;
+    height: 874px;
+}
+
+.main_text{
+    font-family: "DM Sans", sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin: 0px;
+}
+
+.next_text{
+    font-family: "DM Sans", sans-serif;
+    font-size: 75px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin: 0px 0px;
+}
+
+.image_line{
+    width: 136px;
+    height: 11px;
+}
+
+.level_text{
+    font-family: "DM Sans", sans-serif;
+    font-size: 80px;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+    margin: 0px;
+    margin-left: 25px;
+}
+
+.platform_item{
+    width: 32px;
+    height: 32px;
+}
+
+.platform_item{
+    background-color: transparent;
+}
+
+.platforms_list{
+    display: flex;
+    column-gap: 17px;
+    padding-left: 0px;
+}
+
+.next{
+    display: block;
+}
+
+.text_main{
+    display: inline-flex;
+}
+
+.main-section_right{
+    display: block;
+}
+
+.platfrom_text{
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin: 0px;
+}
+
+.platforms{
+    margin-top: 75px;
+}
+
+.main-section_container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.main-section_right{
+    margin-top: 20%;
+}
+
+.header-latest-epidodes{
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+.header_latest-epidodes{
+    font-family: "DM Sans", sans-serif;
+    font-size: 64px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin: 0px;
+}
+
+.button_latest-epidodes{
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    background-color: #118DA8;
+    padding: 15px 20px;
+    height: min-content;
+    border-radius: 16px;
+    margin-top: auto;
+    margin-bottom: auto;
+    transition: background-color 0.2s linear;
+}
+
+.button_latest-epidodes:hover{
+    background-color: #085769;
+}
+
+.episod{
+    background-color: black;
+    padding: 40px 40px;
+    border-radius: 32px;
+}
+
+.img_episode{
+    width: 389px;
+    height: 465px;
+    margin-right: 50px;
+}
+
+.episod_tag{
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    background-color: #191919;
+    padding: 2px 16px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    height: min-content;
+    width: min-content;
+    border-radius: 6px;
+}
+
+.episod_number{
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    color: #118DA8;
+    height: min-content;
+    width: max-content;
+    margin-top: 0px;
+    margin-bottom: 18px;
+}
+
+.episode_name{
+    font-family: "DM Sans", sans-serif;
+    font-size: 65px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 28px;
+}
+
+.episode_text{
+    font-family: "DM Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFFB2;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 33px;
+}
+
+.episod_information{
+    position: relative;
+}
+
+.button_details{
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding: 12px 15px;
+    background-color: #118DA8;
+    border-radius: 6px;
+    margin-top: 36px;
+    margin-bottom: 0px;
+    transition: background-color 0.2s linear;
+    position: absolute;
+    bottom: 0px;
+}
+
+.button_details:hover{
+    background-color: #085769;
+}
+
+.episod{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.latest_episodes{
+    display: flex;
+    justify-content: space-between;
+    padding-top: auto;
+    padding-bottom: auto;
+    margin-bottom: 40px;
+}
+
+.latest-episodes_container{
+    margin-top: 100px;
+    margin-bottom: 160px;
+}
+
+.episodes_list{
+    padding-left: 0px;
+}
+
+.round_button{
+    border-radius: 50%;
+    width: 112px;
+    height: 112px;
+    background-color: #118DA8;
+    transition: background-color 0.2s linear;
+}
+
+.round_button:hover{
+    background-color: #085769;
+}
+
+.host_img{
+    width: 630px;
+    height: 743px;
+}
+
+.text_meet{
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: #118DA8;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.host_name{
+    font-family: "DM Sans", sans-serif;
+    font-size: 65px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 0px;
+}
+
+.host_text{
+    font-family: "DM Sans", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFFB2;
+    margin-top: 30px;
+    margin-bottom: 0px;
+}
+
+.left-side_host{
+    display: block;
+    width: 50%;
+    margin-top: 10%;
+}
+
+.host_container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.input{
+    width: 522px;
+    padding: 26px 19px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    background-color: #191919;
+    border: none;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.button_form{
+    font-family: "DM Sans", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    padding: 10px 20px;
+    background-color: #118DA8;
+    transition: background-color 0.2s linear;
+    border-radius: 6px;
+}
+
+.button_form:hover{
+    background-color: #085769;
+}
+
+.email_text{
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    color: #118DA8;
+    margin: 0px 0px;
+    width: max-content;
+}
+
+.subscribe_text{
+    font-family: "DM Sans", sans-serif;
+    font-size: 72px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin: 0px 0px;
+    width: max-content;
+}
+
+.newsletter_left-side{
+    display: block;
+}
+
+.newsletter_container{
+    padding: 60px 60px 85px 60px;
+    background-color: black;
+    border-radius: 32px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.form-box{
+    display: block;
+}
+
+.newsletter_form{
+    width: min-content;
+}
+
+.star{
+    width: 18px;
+    height: 18px;
+}
+
+.review_rating{
+    display: flex;
+    width: max-content;
+}
+
+.text_review{
+    font-family: "DM Sans", sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    margin: 20px 0px;
+}
+
+.name_review{
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFFB2;
+    margin: 0px 0px;
+}
+
+.review{
+    width: 332px;
+    height: 217px;
+    background-color: black;
+    border-radius: 32px;
+    padding: 54px 50px 50px 50px;
+}
+
+.reviews_container{
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.social_network{
+    margin: 0px 0px;
+    padding: 0px 0px;
+    display: flex;
+}
+
+.social_logo{
+    background-color: transparent;
+}
+
+.social_logo img{
+    width: 24px;
+    height: 24px;
+}
+
+.footer_list{
+    display: block;
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+
+.footer-navigation_link{
+    color: white;
+    text-decoration: none;
+    font-family: "DM Sans", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    font-style: normal;
+    transition: color 0.2s linear;
+}
+
+.footer-navigation_item{
+    margin-bottom: 20px;
+}
+
+.footer-navigation_link:hover{
+    color: #118DA8;
+}
+
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+}
